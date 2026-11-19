@@ -1,1 +1,13 @@
-# Primeros-10-n-meros-naturales.
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Primeros 10 numeros naturales:\n";
+
+    for (int i = 1; i <= 10; i++) {
+        cout << i << " ";
+    }
+
+    cout << endl;
+    return 0;
+}
